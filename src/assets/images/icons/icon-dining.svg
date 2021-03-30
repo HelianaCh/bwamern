@@ -1,0 +1,29 @@
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="70" height="70" fill="white"/>
+<path d="M8.89106 31.6276C9.35328 30.9238 10.1387 30.5 10.9807 30.5H57.4899C58.2764 30.5 59.0171 30.8702 59.4893 31.4992L66.9955 41.4992C68.2324 43.1472 67.0566 45.5 64.996 45.5H4.41276C2.42379 45.5 1.23127 43.29 2.32316 41.6276L8.89106 31.6276Z" stroke="#335D2D" stroke-width="3"/>
+<mask id="path-2-inside-1" fill="white">
+<path d="M11 46C11 45.4477 11.4477 45 12 45L19 45C19.5523 45 20 45.4477 20 46L20 65.5C20 67.9853 17.9853 70 15.5 70C13.0147 70 11 67.9853 11 65.5L11 46Z"/>
+</mask>
+<path d="M11 46C11 45.4477 11.4477 45 12 45L19 45C19.5523 45 20 45.4477 20 46L20 65.5C20 67.9853 17.9853 70 15.5 70C13.0147 70 11 67.9853 11 65.5L11 46Z" stroke="#335D2D" stroke-width="6" mask="url(#path-2-inside-1)"/>
+<mask id="path-3-inside-2" fill="white">
+<path d="M49 45C49 44.4477 49.4477 44 50 44L57 44C57.5523 44 58 44.4477 58 45L58 65.5C58 67.9853 55.9853 70 53.5 70C51.0147 70 49 67.9853 49 65.5L49 45Z"/>
+</mask>
+<path d="M49 45C49 44.4477 49.4477 44 50 44L57 44C57.5523 44 58 44.4477 58 45L58 65.5C58 67.9853 55.9853 70 53.5 70C51.0147 70 49 67.9853 49 65.5L49 45Z" stroke="#335D2D" stroke-width="6" mask="url(#path-3-inside-2)"/>
+<rect x="23" y="19" width="1" height="10" stroke="#335D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="46" y="19" width="1" height="10" stroke="#335D2D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<mask id="path-6-inside-3" fill="white">
+<path d="M17 4C17 3.44772 17.4477 3 18 3L30 3C30.5523 3 31 3.44772 31 4L31 14C31 16.7614 28.7614 19 26 19L22 19C19.2386 19 17 16.7614 17 14L17 4Z"/>
+</mask>
+<path d="M17 4C17 3.44772 17.4477 3 18 3L30 3C30.5523 3 31 3.44772 31 4L31 14C31 16.7614 28.7614 19 26 19L22 19C19.2386 19 17 16.7614 17 14L17 4Z" stroke="#509ED8" stroke-width="6" mask="url(#path-6-inside-3)"/>
+<mask id="path-7-inside-4" fill="white">
+<path d="M40 4C40 3.44772 40.4477 3 41 3L53 3C53.5523 3 54 3.44772 54 4L54 14C54 16.7614 51.7614 19 49 19L45 19C42.2386 19 40 16.7614 40 14L40 4Z"/>
+</mask>
+<path d="M40 4C40 3.44772 40.4477 3 41 3L53 3C53.5523 3 54 3.44772 54 4L54 14C54 16.7614 51.7614 19 49 19L45 19C42.2386 19 40 16.7614 40 14L40 4Z" stroke="#509ED8" stroke-width="6" mask="url(#path-7-inside-4)"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="70" height="70" fill="white"/>
+</clipPath>
+</defs>
+</svg>
