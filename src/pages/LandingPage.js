@@ -21,15 +21,13 @@ class LandingPage extends Component {
         window.scrollTo(0, 0);
 
         if(!this.props.page.landingPage)
-        this.props.fetchPage(`https://admin-comfortzone.herokuapp.com/api/v1/member/landing-page`, 
+        this.props.fetchPage(`${process.env.REACT_APP_HOST}/api/v1/member/landing-page`, 
         "landingPage");
     }
     
     render() {
         const { page } = this.props
-
-        console.log(page)
-
+        
         if(!page.hasOwnProperty("landingPage")) return null;
         
         return (
@@ -42,7 +40,7 @@ class LandingPage extends Component {
                 refMostPicked = {this.refMostPicked} 
                 data = {page.landingPage.mostPicked}/>
 
-                <Categories data = {page.landingPage.categories} />
+                <Categories data = {page.landingPage.category} />
                 <Testimony data = {page.landingPage.testimonial} />
                 <Footer />
 

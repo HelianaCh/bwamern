@@ -15,14 +15,14 @@ export default function BookingInformation(props) {
                             <figure className = "img-wrapper" style = {{ height: 270}}>
                                 <img 
                                     className = "img-cover"
-                                    src = {ItemDetails.imageUrls[0].url}
-                                    alt = {ItemDetails.name} />
+                                    src = {`${process.env.REACT_APP_HOST}/${ItemDetails.imageId[0].imageUrl}`}
+                                    alt = {ItemDetails.title} />
                             </figure>
 
                             <div className = "row align-items-center">
                                 <div className = "col">
                                     <div className = "meta-wrapper">
-                                        <h5 class = "font-weight-bold">{ItemDetails.name}</h5>
+                                        <h5 class = "font-weight-bold">{ItemDetails.title}</h5>
                                         <span className = "text-yellow">
                                             {ItemDetails.city}, {ItemDetails.country}
                                         </span>
